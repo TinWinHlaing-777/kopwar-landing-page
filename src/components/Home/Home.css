@@ -1,0 +1,167 @@
+.home__container {
+    padding-top: 120px
+}
+
+.row__container {
+    padding-left: 8%;
+}
+
+.intro__container {
+    margin-top: 8%;
+}
+
+.intro__text {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.btn__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.playstore__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.huawei__btn {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.appstore__text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+}
+
+.img__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.device {
+    margin-top: 4rem;
+    align-self: center;
+    box-shadow: 0 5px 25px rgb(0 0 0 / 8%) !important;
+    padding: 40px 20px;
+    border-radius: 50px;
+}
+
+.intro__logo {
+    width: 270px;
+    height: 500px;
+}
+
+.card__container {
+    padding-top: 15%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.card__item {
+    border-radius: 20px;
+}
+
+.card__icon {
+    width: 60px;
+    height: 60px;
+    color: #ff904e;
+}
+
+.firstCard__title {
+    font-weight: bold;
+}
+
+.footer__container {
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.footer__img {
+    width: 60px;
+    height: 60px;
+}
+
+.footer__text {
+    font-weight: bold;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #777;
+}
+
+.social__link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    transition: all 0.3s;
+}
+
+.social__link:hover {
+    background-color: #5954cb;
+    color: #fff;
+}
+
+.scrollup__btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    outline: none;
+    background-color: #5954cb;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+@media screen and (max-width: 768px) {
+    .row__container {
+        padding-left: 0%;
+    }
+
+    .btn__container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .playstore__btn {
+        margin-bottom: 10px;
+    }
+
+    .huawei__btn {
+        margin-left: 0;
+    }
+
+    .img__container {
+        padding-left: 0px;
+        display: flex;
+        align-self: center;
+    }
+
+    .contact__container {
+        margin-top: 30px;
+    }
+}
